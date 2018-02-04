@@ -11,7 +11,7 @@ The script "stringverify.pl" has been consructed to successfully parse through a
 2. All codes must only contain numeric characters.
 
 
-As evidence that I worked personally worked on this script and did not simply copy off the internet, I have creating a Branching structure in Git to show my work as I progressed through the code writing.
+As evidence that I worked personally worked on this script and did not simply copy off the internet, I have creating a Branching structure in Git to show my work as I progressed through the code writing.  I did however do some research on the internet and in a Perl Reference to to help me construct my regex matches.  That was really the only pieces I needed to look up, as I dont have all regex pattern rules pre-loaded in my memory.  It is normal for me to look up samples and do research in scripting books when I do coding at work and for play.
 
 I began writing the code at the submission of my first commit, and completed the script with my 5th commit to the "code_test" branch and subsequent push up to develop and into master branch. I did not commit and push every file save that I did during this assignment.  I tried to encaptuate my changes based on the Steps that I listed in the script itself.
 

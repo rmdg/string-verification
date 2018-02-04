@@ -17,9 +17,16 @@ foreach my $bc_validate ( @AoCodes ) {
 	print "\$bc_validate=$bc_validate\n";
 	# Step 2a: disregard elements not equal to either 12 or 14 numeric characters
 	my $ls=length($bc_validate);
-	next if ( ($ls != 12) and ($ls != 14) ) ; 
+	if ( ($ls != 12) and ($ls != 14) ) { 
+		print "skipping:\t\"$bc_validate\" has invalid length\n";
+	}
 
+	# check if element is non-numeric and if so then skip
+	if ( $bc_validate =~ m/[^0-9.]/ ) { 
+		print "skipping:\t\"$bc_validate\" contains non numeric characters\n";
+	}
 	# Step 2b: push valid elements to return array
+
 }
 
 # Step 3: print out return array of valid codes

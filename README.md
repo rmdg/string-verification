@@ -10,6 +10,11 @@ The script "stringverify.pl" has been consructed to successfully parse through a
 1. All codes in string must be either 12 or 14 characters in length.
 2. All codes must only contain numeric characters.
 
+The code was written with Perl 5.22 on Ubuntu 14.04.  The script can be executed without any parameters as such:
+
+./stringverify.pl
+
+I could of course update the code to read the string in from a command line parameter or file.  Iniatially I just coded the script to handle a single scalar variable statically assigned in script itself.
 
 As evidence that I worked personally worked on this script and did not simply copy off the internet, I have creating a Branching structure in Git to show my work as I progressed through the code writing.  I did however do some research on the internet and in a Perl Reference to to help me construct my regex matches.  That was really the only pieces I needed to look up, as I dont have all regex pattern rules pre-loaded in my memory.  It is normal for me to look up samples and do research in scripting books when I do coding at work and for play.
 
